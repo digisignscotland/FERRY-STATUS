@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ferry Service Status</title>
+    <meta http-equiv="refresh" content="300">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .route {
+            background: #fff;
+            border-left: 8px solid #0078D7;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        .route h2 {
+            margin: 0 0 10px;
+        }
+        .status {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .manual-note {
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ferry Service Status</h1>
+    
+    <div class="route">
+        <h2>Gigha – Tayinloan</h2>
+        <div class="status">Status: <span id="status1">Service Info Unavailable – Check CalMac site</span></div>
+        <div class="manual-note">(Manual override or live feed will appear here.)</div>
+    </div>
+
+    <div class="route">
+        <h2>Tarbert – Portavadie</h2>
+        <div class="status">Status: <span id="status2">Service Info Unavailable – Check CalMac site</span></div>
+        <div class="manual-note">(Manual override or live feed will appear here.)</div>
+    </div>
+
+    <div class="route">
+        <h2>Claonaig – Lochranza</h2>
+        <div class="status">Status: <span id="status3">Service Info Unavailable – Check CalMac site</span></div>
+        <div class="manual-note">(Manual override or live feed will appear here.)</div>
+    </div>
+
+    <div class="route">
+        <h2>Kennacraig – Islay</h2>
+        <div class="status">Status: <span id="status4">Service Info Unavailable – Check CalMac site</span></div>
+        <div class="manual-note">(Manual override or live feed will appear here.)</div>
+    </div>
+
+</body>
+</html>
